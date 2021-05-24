@@ -7,3 +7,5 @@
 *.fdb_latexmk
 msNotes.bib
 *~
+pdfs/
+tex/
