@@ -12,4 +12,4 @@ export PTOOLSDIR=/path/to/paperTools
 
 After that's all set, you can build a custom bib file for your current document using the included Makefile by executing `make bib`. This will use bibtool to read your aux file and then extract the needed references from `mainDB.bib` into a `ms.bib` in the document directory.
 
-The `mainDB.bib` file is managed with [bibdesk](http://bibdesk.sourceforge.net) and specifies the reference key format as `firstauthor:year`, i.e., `couch:2015`. Duplicate keys are appended by letters, i.e., `couch:2015a` would be the _second_ paper in 2015 with a first author last name of Couch. Don't mess this up.
+The `mainDB.bib` file is managed with [jabref](https://www.jabref.org/) and specifies the reference key format as `firstauthor:year`, i.e., `couch:2015`. Duplicate keys are appended by letters, i.e., `couch:2015a` would be the _second_ paper in 2015 with a first author last name of Couch. Don't mess this up.
